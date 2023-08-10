@@ -4,13 +4,15 @@
 
 /**
  * main - program that prints using write function
- * return: 1 (Success)
+ * Return: 1 (Success)
  */
 
-int main (void)
+int main(void)
 {
-	const char without[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(1, without, strlen(without));
+	char w[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1, w, strlen(w));
+
 
 	return (1);
 }
