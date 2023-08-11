@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char az;
+	char az = 'a';
 
 	for (az = 'a'; az <= 'z'; ++az);
 
