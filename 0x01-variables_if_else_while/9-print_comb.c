@@ -7,14 +7,19 @@
 
 int main(void)
 {
-	long int c = '0';
-
-	for (c = '0'; c <= '9'; c++)
+	char c = '0';
+	
+	while (c <= '8')
+	{
 		putchar(c);
-		putchar(,);
+		putchar(',');
 		putchar(' ');
+		c++;
+		
+	}
 
-	putchar('\n');
+	if (c != 9)
+		putchar(c);
 
 	return (0);
 }
