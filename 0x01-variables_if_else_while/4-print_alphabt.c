@@ -10,7 +10,7 @@ int main(void)
 	char str[] = "abcdfghijklmnoprstuvwxyz";
 	int bet;
 
-	for (bet = 0; bet <= 24; bet++)
+	for (bet = 0; bet <= 23; bet++)
 	putchar(str[bet]);
 
 	putchar('\n');
