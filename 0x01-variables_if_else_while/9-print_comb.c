@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - printing base 10 and , using putchar function
+ * main - printing with space and , using putchar function
  * Return: 0 Success
  */
 
 int main(void)
 {
-	char c = '0';
+	int c = '0';
 	
 	while (c <= '8')
 	{
