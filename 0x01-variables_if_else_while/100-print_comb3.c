@@ -12,13 +12,13 @@ int main(void)
 
 	for (f = '0'; f <= '9'; f++)
 	{
-		for (s = '0'; s <= '9'; s++)
-			if (s != f)
+		for (s = f + 1; s <= '9'; s++)
+			if (s != f && f != s)
 			{
 				putchar(f);
 				putchar(s);
 
-				if (f == '9' && s == '8')
+				if (f == '8' && s == '9')
 				{
 					break;
 				}
