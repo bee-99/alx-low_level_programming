@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 
 /**
  * main - printing with space and , using putchar function
@@ -8,22 +7,22 @@
 
 int main(void)
 {
-	int c = '0';
-	int n = '\n';
+	long int c = '0';
 
-	while (c <= '8')
+	while  (c <= '9')
 	{
 		putchar(c);
-		putchar(',');
-		putchar(' ');
+
+		if (c != '9')
+		{
+			putchar (',');
+			putchar (' ');
+		}
+
 		c++;
-		
 	}
 
-	if (c != 9)
-		putchar(c);
-	
-	write (1, &n, 1);
+	putchar('\n');
 
 	return (0);
 }
