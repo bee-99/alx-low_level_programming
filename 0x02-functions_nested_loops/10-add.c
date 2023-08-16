@@ -10,6 +10,7 @@
 int add(int t, int b)
 {
 	int q = t || b;
+	int p = t + b;
 
 	if (q >= 65)
 	{
@@ -23,7 +24,6 @@ int add(int t, int b)
 
 	else
 	{
-		int p = t + b;
 
 		_putchar(p);
 	}
