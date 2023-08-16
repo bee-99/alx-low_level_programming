@@ -9,7 +9,8 @@
 int print_last_digit(int l)
 {
 
-	int n = l%10;
+	int n = l % 10;
+	int o = -1 * n;
 
 	if (n >= 0)
 	{
@@ -18,8 +19,7 @@ int print_last_digit(int l)
 
 	else
 	{
-		int o = (-1) * n;
-			_putchar(o + '0');
+		_putchar(o + '0');
 	}
 
 	return (l);
