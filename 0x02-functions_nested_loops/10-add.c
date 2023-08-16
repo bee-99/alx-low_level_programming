@@ -2,22 +2,31 @@
 
 /**
  * add - adds two intergers with result
- *
+ * @t: number holder of the sum
+ * @b: number holder of the sum
  * Return: 0 succes
  */
 
 int add(int t, int b)
 {
-	int p = t + b;
+	int q = t || b;
 
-	if (p == 98)
+	if (q >= 65)
 	{
 
 	}
-	else
-	{	
-	_putchar(p);
+
+	else if (q <= 122)
+	{
+
 	}
 
-	return(p);
+	else
+	{
+		int p = t + b;
+
+		_putchar(p);
+	}
+
+	return (p);
 }
