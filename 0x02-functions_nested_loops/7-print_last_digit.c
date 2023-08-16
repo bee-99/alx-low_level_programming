@@ -16,7 +16,7 @@ int print_last_digit(int l)
 		_putchar(n + '0');
 	}
 
-	else if (n < 48)
+	else if (n < 0)
 	{
 		int o = (-1) * n;
 			_putchar(o + '0');
