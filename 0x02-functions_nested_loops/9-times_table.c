@@ -8,10 +8,10 @@
 
 void times_table(void)
 {
-	int n == 9;
-	int t;
+	int n = 9;
+	int t = 0;
 
-	while (t >= 12 && t != 0)
+	while (t >= 12)
 	{
 		int m = n * t;
 
