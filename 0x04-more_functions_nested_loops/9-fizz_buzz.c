@@ -14,22 +14,39 @@ int main (void)
 	{
 		if (n%3 == 0)
 		{
-			printf("Fizz ");
+			putchar('F');
+			putchar('i');
+			putchar('z');
+			putchar('z');
+			putchar(' ');
 		}
 
 		if (n%5 == 0)
 		{
-			printf("Buzz ");
+			putchar('B');
+			putchar('u');
+			putchar('z');
+			putchar('z');
+			putchar(' ');
 		}
 
 		if (n%3 == 0 && n%5 == 0)
 		{
-			printf("FizzBuzz ");
+			putchar('F');
+			putchar('i');
+			putchar('z');
+			putchar('z');
+			putchar('B');
+			putchar('u');
+			putchar('z');
+			putchar('z');
+			putchar(' ');
 		}
 
 		else
 		{
-			printf("%d ", n);
+			putchar(n + '0');
+			putchar(' ');
 		}
 	}
 
