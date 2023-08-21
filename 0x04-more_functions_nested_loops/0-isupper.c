@@ -8,12 +8,19 @@
 int _isupper(int c)
 {
 
-	for (c = 65; c <= 90; c++)
+       
+	if (c == 65 && c <= 90)
 	{
 		return(1);
+		c++;
 	}
 		
-	return(0);
-	
+	else if (c == 97 && c <= 122)
+	{
+		return(0);
+		c++;
+	}
+
+	return(c);	
 }
 
