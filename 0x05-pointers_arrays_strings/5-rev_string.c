@@ -8,7 +8,7 @@
 void rev_string(char *s)
 {
 
-	*s = '\0'; 
+	*s = '\0';
 	--s;
-	
+
 }
