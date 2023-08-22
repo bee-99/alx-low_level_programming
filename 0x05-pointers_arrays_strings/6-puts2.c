@@ -9,14 +9,13 @@
 void puts2(char *str)
 {	
 	int e;
-
-	e = *str;
 	
-
 	for (e = 0; e <= 10; e++)
 
-		while (e == e%2)
+		if (e == e%2)
 		{
+			e = *str;
+
 			_putchar(*str);
 		}
 	
