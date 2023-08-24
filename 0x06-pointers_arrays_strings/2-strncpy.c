@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * *_strncpy - pointer that copies number of sring characters * @dest: contains the array
+ * *_strncpy - pointer that copies number sring character
+ * @dest: contains src
  * @src: contains the string
  * @n: number of strings
  * Return: dest for success
@@ -26,7 +27,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	*dest = *src;
 
-	for (t =0; src[t] < n; t++)
+	for (t = 0; src[t] < n; t++)
 	{
 		_putchar(*dest + t);
 	}
