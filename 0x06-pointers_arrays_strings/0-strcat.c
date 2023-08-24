@@ -4,7 +4,7 @@
  * *_strcat - pointer that concentrates two strings
  * @dest: contains the array
  * @src: contains the string
- * Returns char for success
+ * Return: dest for success
  */
 
 char *_strcat(char *dest, char *src)
@@ -21,19 +21,19 @@ char *_strcat(char *dest, char *src)
 	{
 		dest++;
 	}
-	return(dest);
+	return (dest);
 
 	while (*src != '\0')
 	{
 		_putchar(*src);
 		continue;
 	}
-	return(src);
+	return (src);
 
 	for (c = 0; dest[c] == '\0' && src[c] == '\0'; c++)
 	{
-		_putchar(*src+c);
-		_putchar(*dest+c);
+		_putchar(*src + c);
+		_putchar(*dest + c);
 	}
-	return(dest);
+	return (dest);
 }
