@@ -19,7 +19,7 @@ int _strcmp(char *s1, char *s2)
 	int sum2 = s2 - s1;
 
 	*s1 = s;
-        *s2 = c;
+	*s2 = c;
 
 	while (s >= 65 && s <= 90)
 	{
@@ -30,10 +30,10 @@ int _strcmp(char *s1, char *s2)
 	while (c >= 97 && c <= 122)
 	{
 		c++;
-		return(c);
+		return (c);
 	}
 
-	for (t = 0; s1[t] > s2[t]; t++) 
+	for (t = 0; s1[t] > s2[t]; t++)
 	{
 		return (sum = s1[t] - s2[t]);
 	}
@@ -43,6 +43,6 @@ int _strcmp(char *s1, char *s2)
 		return (sum2);
 	}
 
-	return(sum2);
+	return (sum2);
 
 }
