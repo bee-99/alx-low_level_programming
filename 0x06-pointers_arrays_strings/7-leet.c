@@ -2,7 +2,7 @@
 
 /**
  * *leet - replaces according to number
- * @*: relates to char
+ * @l: relates to char
  * Return: char
  */
 
@@ -16,14 +16,14 @@ char *leet(char *l)
 
 	if (z != y)
 	{
-		return(l);
+		return (l);
 	}
 
 	else if (z == l && y == l)
 	{
-		return(l);
+		return (l);
 	}
 
-	return(l);
+	return (l);
 }
 
