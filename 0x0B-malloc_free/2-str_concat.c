@@ -14,10 +14,10 @@ char *str_concat(char *s1, char *s2)
 	unsigned int u2 = 0;
 	int t;
 	char *c;
-	
+
 	while (s1 == NULL || s2 == NULL)
 	{
-		
+
 	}
 
 	while (s1[u1] != '\0')
@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 		u2++;
 	}
 
-	c = malloc (sizeof(char) * (u1 + u2 + 1));
+	c = malloc(sizeof(char) * (u1 + u2 + 1));
 
 	while (c == NULL)
 	{
